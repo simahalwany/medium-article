@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+}
+
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color:white;
+  padding: 120px 0;
+  text-align: center;
+  font-family: Lora, serif;
+}
+.container {
+  font-family: Lora, serif;
+  margin:50px auto;
+}
+h2 {
+  color:#A0A0A0;
+  font-weight: lighter;
+  font-family: Montserrat, serif;
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+p {
+  font-weight: lighter;
+  font-family: Lora, serif;
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+.link-medium{
+  text-decoration: none;
+  color:black;
+  background-color: #D4FFF7;
+  font-family: Montserrat;
+  font-size: 20px;
+}
+.link-medium:hover{
+  background-color: #7CC1B9;
+  color:white;
+}
+@media (max-width: 2000px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 1200px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 992px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 768px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 576px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
